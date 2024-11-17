@@ -1,0 +1,412 @@
+*{
+    margin: 0px;
+    box-sizing: border-box; 
+}
+
+
+.firstPage{
+    /* background-color: rgb(248, 237, 237); */
+    height: 100vh;
+}
+
+header{
+    display: flex;
+    height: 100px;
+     margin: 0px 40px;
+    /* background-color: aquamarine; */
+    justify-content: space-evenly;
+    align-items: center;
+}
+header img{
+    height: 40px;
+    width: 40px;
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+header a:hover, img:hover{
+    color: rgb(135, 141, 139);
+}
+
+section .greedings h1{
+    /* background-color: aquamarine;  */
+    height: 200px;
+    margin: 151px 154px 0px 130px;
+    text-align: center;
+    font-size: 70px;
+    
+}
+/*
+section .greedings h1:hover{
+    font-size: 100px;
+    
+} */
+
+section .greedings h1:hover {
+    /* font-size: 100px; */
+    text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* Subtle shadow */
+}
+
+section .socialLinks{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px 300px 0px 550px;
+    width: 350px;
+     /* background-color: rgb(127, 255, 133);  */
+}
+
+section .socialLinks svg{
+    height: 60px;
+    width: 60px;
+    color: black;
+}
+
+section .socialLinks svg:hover{
+    height: 70px;
+    width: 65px;
+    /* color: grey; */
+}
+
+.secondPage{
+    /* background-color: rgb(255, 220, 178); */
+    display: flex;
+    height: 100vh;
+    /* margin: 60px 85px 0px 85px; */
+    padding: 90px 120px;
+    justify-content: space-between;
+}
+
+
+.secondPage .profilePhoto img{
+    /* background-color: aqua; */
+    height: 300px;
+    width: 300px;
+    margin: 150px 80px 120px 0px;
+    
+}
+
+.secondPage .aboutMeContent h3, .thirdPage .eduTitle h3{
+    text-align: center;
+    /* background-color: rgb(175, 127, 214); */
+    margin-bottom: 40px;
+    font-size: 30px;
+    padding-top: 40px;
+}
+
+.secondPage .aboutMeContent span{
+    /* background-color: aquamarine; */
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.aboutMeContent span a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.thirdPage{
+    /* background-color: aquamarine; */
+    height: 60vh;
+    width: 170vh;
+    margin: 0px 40px 0px 130px;
+}
+
+.college span, .school span{
+    font-size: 25px;
+    font-weight:bold;
+    color: rgb(10, 10, 10);
+}
+
+.college svg, .school svg{
+    height: 30px;
+    width: 30px;
+    margin-right: 12px;
+    /* color: black; */
+}
+
+
+.college p, .school p{
+    font-size: 21px;
+    font-family: sans-serif;
+}
+
+.college, .school{
+    text-align: center;
+    line-height: 35px;
+}
+
+.college{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.fourthPage h1, .fifthPage h1{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.grid{
+    display: grid;
+    width: 1450px;
+    /* background-color: aquamarine; */
+    align-items: center;
+    justify-content: space-evenly;
+    grid-template-columns: 200px 200px 200px;
+}
+
+
+.fourthPage .grid .project .projContent p{
+    display: inline;
+    color: black;
+    font-weight: 490;
+}
+
+.project .single{
+    /* background-color: orange; */
+    width: 275px;
+    margin-bottom: 60px;
+    margin-top: 30px;
+}
+
+.project .projContent h3, .sixthPage h1, .seventhPage h1{
+    padding-top: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.single .projImg img{
+    height: 200px;
+    width: 300px;
+}
+
+.single .projContent p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 25px;
+}
+
+.single .projContent a{
+   margin: 20px;
+   margin-left: 90px;
+   height: 30px;
+   width: 85px;
+   text-align: center;
+   padding-top: 5px;
+   text-decoration: none;
+   color: black;
+   display: block;
+   border: 1px solid gray;
+   border-radius: 8px;
+   box-shadow: 0px 0px 10px gray;
+}
+
+.single .projContent a:hover{
+    background-color: gray;
+    color: white;
+}
+
+.fifthPage{
+    height: 97vh;
+    width: 100vw;
+    /* background-color: beige;  */
+}
+
+.fifthPage .container , .fifthPage span{
+  width: 60%;
+  margin-left: 250px;
+  margin-right: 120px;
+  margin-bottom: 30px;
+  background-color: #ddd;
+}
+
+.fifthPage span{
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.fifthPage .skills {
+    text-align: right;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+  }
+
+.fifthPage .java {width: 90%; background-color: #808080;}
+.fifthPage .sql {width: 80%; background-color: #808080;}
+.fifthPage .html {width: 95%; background-color: #808080;}
+.fifthPage .css {width: 90%; background-color: #808080;}
+.fifthPage .python {width: 60%; background-color: #808080;}
+.fifthPage .javaScript {width: 50%; background-color: #808080;}
+
+.sixthPage{
+    height: 130vh;
+    width: 77vw;
+    margin-left: 155px;
+    /* background-color: antiquewhite;  */
+}
+.sixthPage .certi img{
+    height: 300px;
+    width: 450px;
+}
+
+/* .sixthPage .certi img:hover{
+    height: 340px;
+    width: 490px;
+} */
+
+.sixthPage h1{
+    margin-bottom: 40px;
+}
+
+.sixthPage .gridTwo{
+    display: grid;
+    grid-template-columns: 450px 450px;
+    grid-template-rows: 400px 400px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sixthPage .certi h2{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 20px;
+    color: rgb(65, 56, 5);
+}
+
+.seventhPage{
+    height: 85vh;
+    width: 80vw;
+    margin-left: 110px;
+    /* background-color: rgb(228, 166, 74); */
+}
+
+.seventhPage h1{
+    margin-bottom: 70px;
+    margin-left: 0px;
+}
+
+.seventhPage .message{
+    margin-left: 10px;
+    
+}
+
+.seventhPage .socialMediaLinks{
+    /* background-color: aquamarine; */
+   padding-bottom: 120px;
+   padding-right: 60px;
+}
+
+.seventhPage .wrap a, .seventhPage p{
+    /* background-color: aquamarine; */
+    margin-left: 30px;
+    font-size: large;
+    font-weight: 540;
+    text-decoration: none;
+    color: black;
+}
+
+.seventhPage .message label{
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.seventhPage .space{
+    margin-bottom: 30px;
+}
+
+.seventhPage input{
+    margin-left: 30px;
+    width: 400px;
+    height: 30px;
+}
+
+.seventhPage textarea{
+    margin-left: 60px;
+    width: 400px;
+    height: 60px;
+}
+
+.seventhPage #name{
+    margin-left: 30px;
+}
+
+.seventhPage textarea, .seventhPage input{
+    border: none;
+    border:  1px solid black;
+}
+
+.seventhPage button{
+    height: 40px;
+    width: 100px;
+    text-align: center;
+    margin: 0px 250px;
+    background-color: whitesmoke;
+    border: none;
+    border: 1px solid grey;
+    border-radius: 8px;
+    box-shadow: 0px 0px 4px grey;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.seventhPage button:active {
+    background-color: #dcdcdc; /* Darker background when clicked */
+    box-shadow: 0px 0px 8px #aaa; /* More prominent shadow on click */
+    transform: scale(0.98); /* Shrinks the button when clicked */
+}
+
+
+.seventhPage #nameIn{
+    margin-left: 36px;
+}
+
+.seventhPage .space {
+    margin-bottom: 60px;
+    /* background-color: rgb(30, 84, 131); */
+}
+.seventhPage #emailIn{
+    margin-left: 44px;
+}
+
+.seventhPage #msgBox{
+    width: 470px;
+}
+
+.seventhPage .wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.seventhPage .wrap img{
+    height: 50px;
+    width: 50px;
+}
+
+.seventhPage .wrap p{
+    display: inline;
+}
+
+.seventhPage .wrap{
+    display: flex;
+    align-items: center;
+    margin-left: 200px;
+    margin-bottom: 30px;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f1f1f1;
+    font-size: 14px;
+}
