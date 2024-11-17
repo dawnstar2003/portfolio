@@ -1,17 +1,3 @@
-let body = document.querySelector("body");
-body.style.transition = "1s";
-
-function changeBg(){
-    if(body.style.backgroundColor != "black"){
-        body.style.backgroundColor = "black";
-        body.style.color = "white";
-    }
-    else{
-        body.style.backgroundColor = "white";
-        body.style.color = "black";
-    }
-}
-
 document.getElementById("contactForm").addEventListener("submit", function(event) {
     event.preventDefault(); // Prevent the form from submitting initially
 
